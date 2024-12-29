@@ -1,5 +1,6 @@
 {
   "name": "hexlet-testing-library",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +9,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/user-event": "^14.5.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-jest-dom": "^5.5.0",
+    "eslint-plugin-testing-library": "^7.1.1",
+    "globals": "^15.14.0",
+    "vitest": "^2.1.8",
+    "vitest-preview": "^0.0.1"
+  }
 }
