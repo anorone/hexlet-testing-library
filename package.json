@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:preview": "vitest-preview"
   },
   "keywords": [],
   "author": "",
